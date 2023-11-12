@@ -1,7 +1,6 @@
 # 23Z-PIS-Process-Mining
 
 ## Projekt z przedmiotu Projektowanie i Integracja Systemów
-\[103A-INxxx-ISP-PIS\]
 
 ### Prowadzący projektu
 
