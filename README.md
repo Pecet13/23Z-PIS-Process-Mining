@@ -4,7 +4,7 @@
 
 ### Prowadzący projektu
 
-Kamil Żbikowski
+- Kamil Żbikowski
 
 ### Uczestnicy projektu
 
