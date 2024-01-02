@@ -1,0 +1,5 @@
+[2023-12-04 12:06:45,377] ERROR Executor java.util.concurrent.ThreadPoolExecutor@1a7b4fb7[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 2] did not terminate in time (org.apache.kafka.common.utils.ThreadUtils:80)
+[2023-12-04 12:06:46,814] INFO [jdbc-source-connector|task-0] Stopping JDBC source task (io.confluent.connect.jdbc.source.JdbcSourceTask:365)
+[2023-12-04 12:06:47,464] INFO [jdbc-source-connector|task-0] Closing resources for JDBC source task (io.confluent.connect.jdbc.source.JdbcSourceTask:377)
+[2023-12-04 12:06:47,464] INFO Herder stopped (org.apache.kafka.connect.runtime.standalone.StandaloneHerder:122)
+[2023-12-04 12:06:47,575] INFO Kafka Connect stopped (org.apache.kafka.connect.runtime.Connect:72)
