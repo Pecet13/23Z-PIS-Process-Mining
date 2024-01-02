@@ -1,3 +1,0 @@
-[2023-12-04 12:06:52,666] INFO Stopped http_8083@27ada0e8{HTTP/1.1, (http/1.1)}{0.0.0.0:8083} (org.eclipse.jetty.server.AbstractConnector:383)
-[2023-12-04 12:06:53,518] INFO node0 Stopped scavenging (org.eclipse.jetty.server.session:149)
-[2023-12-04 12:06:55,624] INFO REST server stopped (org.apache.kafka.connect.runtime.rest.RestServer:365)

@@ -1,0 +1,4 @@
+[2023-12-24 12:17:26,213] INFO [jdbc-source-connector|task-0|offsets] WorkerSourceTask{id=jdbc-source-connector-0} Committing offsets for 4 acknowledged messages (org.apache.kafka.connect.runtime.WorkerSourceTask:233)
+[2023-12-24 12:18:26,224] INFO [jdbc-source-connector|task-0|offsets] WorkerSourceTask{id=jdbc-source-connector-0} Committing offsets for 6 acknowledged messages (org.apache.kafka.connect.runtime.WorkerSourceTask:233)
+[2023-12-24 12:48:26,368] INFO [jdbc-source-connector|task-0|offsets] WorkerSourceTask{id=jdbc-source-connector-0} Committing offsets for 2 acknowledged messages (org.apache.kafka.connect.runtime.WorkerSourceTask:233)
+[2023-12-24 12:49:26,417] INFO [jdbc-source-connector|task-0|offsets] WorkerSourceTask{id=jdbc-source-connector-0} Committing offsets for 7 acknowledged messages (org.apache.kafka.connect.runtime.WorkerSourceTask:233)

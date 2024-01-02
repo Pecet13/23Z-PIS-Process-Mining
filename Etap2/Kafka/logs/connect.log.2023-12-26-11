@@ -1,2 +1,0 @@
-[2023-12-26 11:04:00,971] INFO [jdbc-source-connector|task-0|offsets] WorkerSourceTask{id=jdbc-source-connector-0} Committing offsets for 9 acknowledged messages (org.apache.kafka.connect.runtime.WorkerSourceTask:233)
-[2023-12-26 11:05:00,978] INFO [jdbc-source-connector|task-0|offsets] WorkerSourceTask{id=jdbc-source-connector-0} Committing offsets for 1 acknowledged messages (org.apache.kafka.connect.runtime.WorkerSourceTask:233)
