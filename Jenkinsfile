@@ -1,23 +1,56 @@
 pipeline {
     agent any
+
     stages {
-        stage('Build') {
+        stage('Checkout') {
             steps {
-                echo 'Building...'
-                // Add build steps here
+                checkout scm
             }
         }
-        stage('Test') {
+        
+        stage('Setup Python Environment') {
             steps {
-                echo 'Testing...'
-                // Add test steps here
+                echo 'Setting up Python...'
+                sh 'python -m venv venv'
+                sh '. venv/bin/activate'
             }
         }
+
+        stage('Install Dependencies') {
+            steps {
+                echo 'Installing dependencies...'
+                sh 'pip install -r requirements.txt'
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                echo 'Running tests...'
+                sh './Frontend/Website/test_app.py'
+            }
+        }
+
         stage('Deploy') {
             steps {
                 echo 'Deploying...'
-                // Add deploy steps here
+                // sh './Deployment/deployment.sh.sh'
             }
+        }
+    }
+
+    post {
+        always {
+            echo 'Cleaning up...'
+            sh 'deactivate'
+            sh 'rm -rf venv'
+        }
+
+        success {
+            echo 'Build succeeded!'
+        }
+
+        failure {
+            echo 'Build failed!'
         }
     }
 }
